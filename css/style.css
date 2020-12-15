@@ -25,10 +25,10 @@ a:link{text-decoration:none;}
 a:hover{text-decoration:none;color:#d55101;}
 a:visited{text-decoration:none;}
 img{border:none;}
-input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;color:#616161 !important;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;color:#616161 !important;disabled="disabled"}
 /*清楚浮动*/
 .clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;font-size: 0;}
-.clearfix {display: inline-block; }* html 
+.clearfix {display: inline-block; }* html
 .clearfix {height: 1%;}
 .clearfix {display: block;}
 .clearfix {zoom: 1;}
@@ -271,7 +271,7 @@ input::-webkit-calendar-picker-indicator{color:#EC5901;margin-right:30px;backgro
 .div_Attention_box h3{float:left;width:100%;height:30px;font-size:14px;color:#333;line-height:30px;font-weight:normal;margin-left:7px;}
 .div_Attention_box dl{float:left;width:100%;padding-top:10px;}
 .div_Attention_box dl dt{float:left;height:68px;width:68px;position: relative;box-shadow:1px 2px 2px 0px rgba(0,0,0,.2);}
-.div_Attention_box.Attention_right dl dt:hover .weixin_ewm{display: block;} 
+.div_Attention_box.Attention_right dl dt:hover .weixin_ewm{display: block;}
 .div_Attention_box dl dt .weixin_ewm{position: absolute;top: -196px;left: -3px;display:none;width: 182px;height: 192px;background: url(../images/jl_index_Attention_ewm.png) no-repeat;}
 .div_Attention_box dl dt .weixin_ewm img{display: block;width:152px;height:152px;border-radius:0px;border:0px;margin: 14px 12px;}
 
@@ -486,7 +486,7 @@ input::-webkit-calendar-picker-indicator{color:#EC5901;margin-right:30px;backgro
 .div_Custom_Sound ul li h3{float:left;font-size:14px;color:#666666;padding-right:10px;}
 .div_Custom_Sound ul li span{float:left;color:#666;}
 .div_Custom_Sound ul li a{float:left;color:#ff6000;}
-.div_Custom_Sound ul li p{float:left;color:#6d6d6d;} 
+.div_Custom_Sound ul li p{float:left;color:#6d6d6d;}
 .div_Custom_Sound ul li p.reply{clear:both;color:#ff6000;}
 .div_Custom_Sound ul li .a_Sound_img{float:left;width:108px;height:108px;border:#d3d3d3 solid 1px;text-align:center;overflow:hidden;background:#fff;margin-right:10px;}
 
@@ -1832,7 +1832,7 @@ ul.rating li.five a {left:64px;}
 .rippler-bs-danger .rippler-div {background-color: #d2322d}
 /*清楚浮动*/
 .clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;font-size: 0;}
-.clearfix {display: inline-block; }* html 
+.clearfix {display: inline-block; }* html
 .clearfix {height: 1%;}
 .clearfix {display: block;}
 .clearfix {zoom: 1;}
@@ -1915,10 +1915,10 @@ ul.rating li.five a {left:64px;}
 .jl-index-search{height:270px;width:100%;}
 .jl-index-search form{height:42px;line-height:42px;}
 .jl-index-search form .search-keyword{width:479px;height:42px;line-height:42px;border:none;float:left;background:rgba(255,255,255,.2);padding:0 10px;font-family: "microsoft yahei";font-size:14px;color:rgba(255,255,255,.6);transition:all .5s;-webkit-transition:all .5s;-moz-transition:all .5s;}
-.jl-index-search form ::-webkit-input-placeholder { /* WebKit browsers */color:#0b2a49; }  
-.jl-index-search form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:#0b2a49;opacity:1}  
-.jl-index-search form ::-moz-placeholder { /* Mozilla Firefox 19+ */ color:#0b2a49;opacity:1}  
-.jl-index-search form :-ms-input-placeholder { /* Internet Explorer 10+ */ color:#0b2a49;}  
+.jl-index-search form ::-webkit-input-placeholder { /* WebKit browsers */color:#0b2a49; }
+.jl-index-search form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:#0b2a49;opacity:1}
+.jl-index-search form ::-moz-placeholder { /* Mozilla Firefox 19+ */ color:#0b2a49;opacity:1}
+.jl-index-search form :-ms-input-placeholder { /* Internet Explorer 10+ */ color:#0b2a49;}
 .jl-index-search form .search-submit{width:46px;height:42px;line-height:42px;margin-left:4px;float:left;border:none;background:rgba(62,191,98,.4) url(../images/jl-sp.png) no-repeat 16px -685px;transition:all .5s;-webkit-transition:all .5s;-moz-transition:all .5s;}
 .jl-index-search form .search-submit:hover{background:rgba(62,191,98,.8) url(../images/jl-sp.png) no-repeat -47px -685px;}
 .jl-index-search form .search-keyword:focus{box-shadow: inset 0px 0px 3px 0px rgba(255,255,255,.3);}

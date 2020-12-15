@@ -19,7 +19,7 @@ a,button{cursor:pointer;}
 h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
 a,a:hover{text-decoration:none;}
 a:link{text-decoration:none;}
-body, button, input, select, textarea, a,label{color:#3b3b3b;font:12px/1.5 "微软雅黑";}
+body, button, input, select, textarea, a,label{color:#3b3b3b;font:12px/1.5 "微软雅黑";disabled="disabled"}
 a:hover{text-decoration:none;color:#d55101;}
 a:visited{text-decoration:none;}
 img{border:none;}
@@ -83,7 +83,7 @@ input:focus:-ms-input-placeholder{color:transparent;}
 /**拖动*/
 .resume_drag:hover,.resume_drag:focus,.resume_drag:checked,.resume_drag:active{box-shadow:0 0 8px rgba(150,150,150,.8);}
 .resume_drag{position:absolute;z-index:10000;top:50px;left:40%;}
-.resume_drag .textarea{width: 500px;height:200px;} 
+.resume_drag .textarea{width: 500px;height:200px;}
 .resume_drag span{background:url(../images/zxbjSp.png);position:absolute;width:24px;height:24px;display:none;background-color:rgba(141, 165, 252,.5);}
 .resume_drag span.resume_drag_move{background-position:5px -624px;cursor:move;top:0;left:-24px;}
 .resume_drag span.resume_drag_delete{background-position:-96px -625px;cursor:pointer;top:24px;left:-24px;}
@@ -557,7 +557,7 @@ header{width:100%;height: 60px;background:#464e78;position:fixed;top:0px;}
 .sortable-ghost dl,.sortable-ghost .baseMsg,.sortable-ghost .skillUl{opacity:0;transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;}
 .sortable-ghost:active{display:none;}
 .sortable-ghost[draggable=true]{transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;border:1px dashed rgba(255, 162, 42,.8);;transform:translateY(-10px);}
- 
+
 /*删除按钮*/
 .baseDel{position: relative;border:1px solid transparent}
 .baseDel .delete{position:absolute;top: -8px;right: -10px;background:url(../images/zxbjSp.png) no-repeat -262px -627px;cursor:pointer;display: none;width:20px;height:20px;}
@@ -573,7 +573,7 @@ header{width:100%;height: 60px;background:#464e78;position:fixed;top:0px;}
 .custDel:hover .cust_delete{display: block;}
 
 /*模块隐藏*/
-.baseDel_ .cust_delete:hover{ background:url(../images/zxbjSp.png) no-repeat -299px -625px;} 
+.baseDel_ .cust_delete:hover{ background:url(../images/zxbjSp.png) no-repeat -299px -625px;}
 
 /*通用信息*/
 .baseStyle .headDiv{box-sizing: content-box;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;}
