@@ -1,2 +1,2 @@
 # Welcome to MAX GitHub-Pages
-👉https://a334713698.github.io/resume/
+👉https://a334713698.github.io/resume-en/
